@@ -1,0 +1,104 @@
+1 The list of files in my directory 
+.Azure
+Coco@Daniel-Olubi MINGW64 ~ (master)
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Cloud_DevOps_C4/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Dropbox/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ Templates@
+ Thumbs.db
+ Videos/
+ https---github.com-Schull-io-Cloud_DevOps_C4/
+ iCloudDrive/
+ node_modules/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+
+2 The list of content in my home Directory
+ cd Documents/
+
+Coco@Daniel-Olubi MINGW64 ~/Documents (master)
+$ mkdir 'DevOps'
+mkdir: cannot create directory ‘DevOps’: File exists
+
+Coco@Daniel-Olubi MINGW64 ~/Documents (master)
+$  mkdir 'DevOps'
+
+Coco@Daniel-Olubi MINGW64 ~/Documents (master)
+$ ls
+ AdditionalPersonalInformationScheduleA.docx
+'Allison Olalekan CV.docx'
+'BF new'/
+'CBN CIRCULAR.pdf'
+'Custom Office Templates'/
+ CyberLink/
+'Danny ish.txt'
+ DevOps/
+'Due Diligence for Domiciliary Accounts.pdf'
+ GitHub/
+ HORLAG/
+"Lekan's Certificates"/
+'Modelli di Office personalizzati'/
+'My Music'@
+'My Pictures'@
+'My Videos'@
+'Outlook Files'/
+'PERSONAL BANKING ADDITIONAL FORM.pdf'
+'REFERENCE FORM.PDF'
+'The Branch Manager May22.docx'
+ Thumbs.db
+ WindowsPowerShell/
+ Youcam/
+ Z10_10.3.02.2876_STL100-1/
+ Zoom/
+'acca word'/
+ coca-cola-business-environmental-social-governance-report-2020.pdf
+ desktop.ini
+'from desktop'/
+'group a companies'/
+ kunmi/
+ plastic-recycling-slide1.png
+'~$MPLIANCE.docx'
+'~$RLAG RECYCLING Ivestor deck.docx'
+'~$T Cover letter.docx'
+'~$ditionalPersonalInformationScheduleA.docx'
+'~$e Branch Manager May22.docx'
+'~$nada Rami & Lekan.docx'
+'~$nergy Financial Mgt (F9) Study Note word.docx'
+'~$niel cover letter.docx'
+'~WRL0004.tmp'
+'~WRL3822.tmp'
+
+
+3 List the content of <name_of_directory> by using its absolute path 
+LICENSE.txt  ReleaseNotes.html  bin/  cmd/  dev/  etc/  git-bash.exe*  git-cmd.exe*  mingw64/  proc/  tmp/  unins000.dat  unins000.exe*  unins000.msg  usr/
