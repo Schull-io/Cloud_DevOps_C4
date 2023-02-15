@@ -100,5 +100,80 @@ $ ls
 '~WRL3822.tmp'
 
 
-3 List the content of <name_of_directory> by using its absolute path 
-LICENSE.txt  ReleaseNotes.html  bin/  cmd/  dev/  etc/  git-bash.exe*  git-cmd.exe*  mingw64/  proc/  tmp/  unins000.dat  unins000.exe*  unins000.msg  usr/
+3 List the content of <name_of_directory> by using its Relative path 
+ls Cloud_DevOps_C4/Week_3/
+'Dondannie1 wk3'/   Dondannie1.3.txt   Readme.md
+
+4 List the content of <name_of_directory> by using its Absolute path 
+pwd
+/c/Users/Coco
+
+Coco@Daniel-Olubi MINGW64 ~ (master)
+$ cd /c/Users/Coco
+
+Coco@Daniel-Olubi MINGW64 ~ (master)
+$ cd /c/Users/Coco/Cloud_DevOps_C4/Week_3
+
+Coco@Daniel-Olubi MINGW64 ~/Cloud_DevOps_C4/Week_3 (master)
+$ ls  /c/Users/Coco/Cloud_DevOps_C4/Week_3
+'Dondannie1 wk3'/   Dondannie1.3.txt   Readme.md
+
+5 List the content of the directory <name_of_directory> with the ls command and the option -R
+Coco@Daniel-Olubi MINGW64 ~/Cloud_DevOps_C4 (main)
+$ ls -R
+.:
+ README.md  'Week 2'/   Week_2/   Week_3/   Week_4/   Week_5/
+
+'./Week 2':
+'Lab 1'/
+
+'./Week 2/Lab 1':
+'AZURE SERVICES'/   DansfirstProject.txt   Hello.md   Hello.text  'New Text Document (2).txt'  'New Text Document (3).txt'  'New Text Document.txt'
+
+'./Week 2/Lab 1/AZURE SERVICES':
+1.png  2.png  3.png  4.png  5.png  6.png  7.png  8.png
+
+./Week_2:
+'Lab 1'/  'LAB 2'/  'LAB 3'/
+
+'./Week_2/Lab 1':
+README.md
+
+'./Week_2/LAB 2':
+README.md
+
+'./Week_2/LAB 3':
+README.md
+
+./Week_3:
+'Dondannie1 wk3'/   Dondannie1.3.txt   Readme.md
+
+'./Week_3/Dondannie1 wk3':
+'Home Directory.png'   Ls.png
+
+./Week_4:
+'LAB 1'/  'LAB 2'/  'LAB 3'/  'LAB 4'/
+
+'./Week_4/LAB 1':
+README.md
+
+'./Week_4/LAB 2':
+README.md
+
+'./Week_4/LAB 3':
+README.md
+
+'./Week_4/LAB 4':
+README.md
+
+./Week_5:
+'LAB 1'/  'LAB 2'/  'LAB 3'/
+
+'./Week_5/LAB 1':
+README.md
+
+'./Week_5/LAB 2':
+README.md
+
+'./Week_5/LAB 3':
+README.md

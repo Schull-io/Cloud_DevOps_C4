@@ -1,0 +1,3 @@
+List the files using the ls command and metacharacter *
+ls *.txt
+ Dondannie1.3.txt  'ls metacharcter.txt'

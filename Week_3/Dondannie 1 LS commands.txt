@@ -1,0 +1,200 @@
+
+Coco@Daniel-Olubi MINGW64 ~/Cloud_DevOps_C4 (main)
+$ ls -a  'wWeek_3'
+ls: cannot access 'wWeek_3': No such file or directory
+
+Coco@Daniel-Olubi MINGW64 ~/Cloud_DevOps_C4 (main)
+$ ls -a  'week_3'
+ ./   ../   .git/  'Dondannie 1 LS command.txt'  'Dondannie 1 Ls metacharcter.txt'  'Dondannie1 Screenshots wk3'/   Dondannie1.3.txt   Readme.md
+
+Coco@Daniel-Olubi MINGW64 ~/Cloud_DevOps_C4 (main)
+$ ls -h  'week_3'
+'Dondannie 1 LS command.txt'  'Dondannie 1 Ls metacharcter.txt'  'Dondannie1 Screenshots wk3'/   Dondannie1.3.txt   Readme.md
+
+Coco@Daniel-Olubi MINGW64 ~/Cloud_DevOps_C4 (main)
+$ ls -a
+ ./   ../   .git/   README.md  'Week 2'/   Week_2/   Week_3/   Week_4/   Week_5/
+
+Coco@Daniel-Olubi MINGW64 ~/Cloud_DevOps_C4 (main)
+$ ls -art
+ README.md   ../  'Week 2'/   Week_2/   Week_4/   ./   Week_5/   .git/   Week_3/
+
+Coco@Daniel-Olubi MINGW64 ~/Cloud_DevOps_C4 (main)
+$ ls -l
+total 13
+-rw-r--r-- 1 Coco 197121 91 Jan 25 12:15  README.md
+drwxr-xr-x 1 Coco 197121  0 Feb 13 14:06 'Week 2'/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  Week_2/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 17:04  Week_3/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  Week_4/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  Week_5/
+
+Coco@Daniel-Olubi MINGW64 ~/Cloud_DevOps_C4 (main)
+$ ls -la
+total 37
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  ./
+drwxr-xr-x 1 Coco 197121  0 Feb 13 11:39  ../
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  .git/
+-rw-r--r-- 1 Coco 197121 91 Jan 25 12:15  README.md
+drwxr-xr-x 1 Coco 197121  0 Feb 13 14:06 'Week 2'/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  Week_2/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 17:04  Week_3/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  Week_4/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  Week_5/
+
+Coco@Daniel-Olubi MINGW64 ~/Cloud_DevOps_C4 (main)
+$ ls -lah
+total 37K
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  ./
+drwxr-xr-x 1 Coco 197121  0 Feb 13 11:39  ../
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  .git/
+-rw-r--r-- 1 Coco 197121 91 Jan 25 12:15  README.md
+drwxr-xr-x 1 Coco 197121  0 Feb 13 14:06 'Week 2'/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  Week_2/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 17:04  Week_3/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  Week_4/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  Week_5/
+
+Coco@Daniel-Olubi MINGW64 ~/Cloud_DevOps_C4 (main)
+$ ls -R
+.:
+ README.md  'Week 2'/   Week_2/   Week_3/   Week_4/   Week_5/
+
+'./Week 2':
+'Lab 1'/
+
+'./Week 2/Lab 1':
+'AZURE SERVICES'/   DansfirstProject.txt   Hello.md   Hello.text  'New Text Document (2).txt'  'New Text Document (3).txt'  'New Text Document.txt'
+
+'./Week 2/Lab 1/AZURE SERVICES':
+1.png  2.png  3.png  4.png  5.png  6.png  7.png  8.png
+
+./Week_2:
+'Lab 1'/  'LAB 2'/  'LAB 3'/
+
+'./Week_2/Lab 1':
+README.md
+
+'./Week_2/LAB 2':
+README.md
+
+'./Week_2/LAB 3':
+README.md
+
+./Week_3:
+'Dondannie 1 LS command.txt'  'Dondannie 1 Ls metacharcter.txt'  'Dondannie1 Screenshots wk3'/   Dondannie1.3.txt   Readme.md
+
+'./Week_3/Dondannie1 Screenshots wk3':
+'Home Directory.png'   Ls.png   metacharacter.png  'Relative, Absolute path and -R.png'
+
+./Week_4:
+'LAB 1'/  'LAB 2'/  'LAB 3'/  'LAB 4'/
+
+'./Week_4/LAB 1':
+README.md
+
+'./Week_4/LAB 2':
+README.md
+
+'./Week_4/LAB 3':
+README.md
+
+'./Week_4/LAB 4':
+README.md
+
+./Week_5:
+'LAB 1'/  'LAB 2'/  'LAB 3'/
+
+'./Week_5/LAB 1':
+README.md
+
+'./Week_5/LAB 2':
+README.md
+
+'./Week_5/LAB 3':
+README.md
+
+Coco@Daniel-Olubi MINGW64 ~/Cloud_DevOps_C4 (main)
+$ ls -lah
+total 37K
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  ./
+drwxr-xr-x 1 Coco 197121  0 Feb 13 11:39  ../
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  .git/
+-rw-r--r-- 1 Coco 197121 91 Jan 25 12:15  README.md
+drwxr-xr-x 1 Coco 197121  0 Feb 13 14:06 'Week 2'/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  Week_2/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 17:04  Week_3/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  Week_4/
+drwxr-xr-x 1 Coco 197121  0 Feb 15 12:31  Week_5/
+
+Coco@Daniel-Olubi MINGW64 ~/Cloud_DevOps_C4 (main)
+$ ls -R -S
+.:
+ README.md  'Week 2'/   Week_2/   Week_3/   Week_4/   Week_5/
+
+'./Week 2':
+'Lab 1'/
+
+'./Week 2/Lab 1':
+'New Text Document (3).txt'  'New Text Document.txt'   DansfirstProject.txt  'New Text Document (2).txt'  'AZURE SERVICES'/   Hello.md   Hello.text
+
+'./Week 2/Lab 1/AZURE SERVICES':
+1.png  7.png  8.png  6.png  4.png  5.png  3.png  2.png
+
+./Week_2:
+'Lab 1'/  'LAB 2'/  'LAB 3'/
+
+'./Week_2/Lab 1':
+README.md
+
+'./Week_2/LAB 2':
+README.md
+
+'./Week_2/LAB 3':
+README.md
+
+./Week_3:
+ Readme.md   Dondannie1.3.txt  'Dondannie 1 Ls metacharcter.txt'  'Dondannie 1 LS command.txt'  'Dondannie1 Screenshots wk3'/
+
+'./Week_3/Dondannie1 Screenshots wk3':
+ Ls.png  'Home Directory.png'   metacharacter.png  'Relative, Absolute path and -R.png'
+
+./Week_4:
+'LAB 1'/  'LAB 2'/  'LAB 3'/  'LAB 4'/
+
+'./Week_4/LAB 1':
+README.md
+
+'./Week_4/LAB 2':
+README.md
+
+'./Week_4/LAB 3':
+README.md
+
+'./Week_4/LAB 4':
+README.md
+
+./Week_5:
+'LAB 1'/  'LAB 2'/  'LAB 3'/
+
+'./Week_5/LAB 1':
+README.md
+
+'./Week_5/LAB 2':
+README.md
+
+'./Week_5/LAB 3':
+README.md
+
+Coco@Daniel-Olubi MINGW64 ~/Cloud_DevOps_C4 (main)
+$ ls -a
+ ./   ../   .git/   README.md  'Week 2'/   Week_2/   Week_3/   Week_4/   Week_5/
+
+Coco@Daniel-Olubi MINGW64 ~/Cloud_DevOps_C4 (main)
+$ du -sh *
+1.0K    README.md
+1.4M    Week 2
+6.0K    Week_2
+1.3M    Week_3
+8.0K    Week_4
+6.0K    Week_5
