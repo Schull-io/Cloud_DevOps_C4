@@ -121,3 +121,33 @@ Connect to a remote server using a different user name: ssh -l username user@ser
 8. Change a user's secondary groups: usermod -G group1,group2,group3 username
 9. Change the name of a group: groupmod -n new_groupname groupname
 10. Change the group ID of a group: groupmod -g new_gid groupname
+
+
+
+
+
+
+
+
+
+
+## LAB Experience 
+# List the content of the directory <name_of_directory> with the ls command and the option -R
+
+![Linux1](https://user-images.githubusercontent.com/105374941/221877732-92c57af8-a447-4dcb-a947-73e2686ac809.png)
+
+
+# ls command and the option -l
+![linux2](https://user-images.githubusercontent.com/105374941/221878161-323c116b-72d7-40b3-b18e-c3a8b4cd07e5.png)
+
+
+
+# ls command and the option -a / -lh
+
+![linux4](https://user-images.githubusercontent.com/105374941/221879053-0cce857f-c67c-4801-a0aa-0a8b55e285bc.png)
+
+# ls command and the option -a / -lh
+
+
+
+
