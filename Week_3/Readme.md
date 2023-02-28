@@ -146,8 +146,15 @@ Connect to a remote server using a different user name: ssh -l username user@ser
 
 ![linux4](https://user-images.githubusercontent.com/105374941/221879053-0cce857f-c67c-4801-a0aa-0a8b55e285bc.png)
 
-# ls command and the option -a / -lh
+# ls command and the option -
+
+![linux5](https://user-images.githubusercontent.com/105374941/221887279-85bb6e71-8e8c-4c37-bae4-61e320e61a37.png)
+
+![linux5a](https://user-images.githubusercontent.com/105374941/221887308-9595e0dd-0d09-4c4e-9900-47171615065f.png)
 
 
+![Linux6](https://user-images.githubusercontent.com/105374941/221887342-81d3add1-0ecf-4dec-880f-70f26b3603c2.png)
 
+![linux7](https://user-images.githubusercontent.com/105374941/221887375-f60dd2d9-da45-41f4-89a2-0cbb49f5496f.png)
 
+![linux7a](https://user-images.githubusercontent.com/105374941/221887497-f47ec143-1a28-4c70-8d02-460d72e0d2a1.png)
