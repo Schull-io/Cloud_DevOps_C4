@@ -158,3 +158,17 @@ Connect to a remote server using a different user name: ssh -l username user@ser
 ![linux7](https://user-images.githubusercontent.com/105374941/221887375-f60dd2d9-da45-41f4-89a2-0cbb49f5496f.png)
 
 ![linux7a](https://user-images.githubusercontent.com/105374941/221887497-f47ec143-1a28-4c70-8d02-460d72e0d2a1.png)
+
+
+
+
+
+## CP CMD
+
+# Copy a file from one directory to another: cp /path/to/source/file.txt /path/to/destination/
+
+
+![cp1](https://user-images.githubusercontent.com/105374941/222155338-626b4d6b-a266-40e6-9c47-85d9b2f2cfc8.png)
+
+![cp2](https://user-images.githubusercontent.com/105374941/222155374-147ed630-3493-437d-8ebe-038eed8c3edd.png)
+
