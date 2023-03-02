@@ -34,7 +34,7 @@ https://docs.aws.amazon.com/cloudshell/latest/userguide/working-with-cloudshell.
 
 
 
-##  My LAB 2 Experience
+##  LAB Experience
 
 
 
