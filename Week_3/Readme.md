@@ -99,7 +99,7 @@ Go back to your home directory.
 5. Open a new file in vi and save it with a different name: vi new_file.txt
 6. Revert to a previous version of the file by pressing Esc, then typing :e! and pressing Enter
 7. Search for a string in the file by pressing Esc, then typing /string and pressing Enter
-8. Replace all occurrences of a string in the file by pressing Esc, then typing :%s/old_string/new_string/g and pressing Enter
+8. Replace all occurrences of a string in the file by pressing Esc, then typing :%s/old_string/new_string/gls and pressing Enter
 9. Go to a specific line number by pressing Esc, then typing :line_number and pressing Enter
 10. Split the window into multiple panes by pressing Ctrl + w followed by v or h to split vertically or horizontally, respectively. Navigate between panes using Ctrl + w followed by h, j, k, or l.
 
