@@ -22,4 +22,5 @@ wget https://wordpress.org/latest.tar.gz
 Guide:
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/hosting-wordpress.html
 
-Grading tip:  Screenshot major script/console outputs and upload with your step by step answer
+Grading tip:  Screenshot major script/console outputs and upload with your step by step answer  
+
