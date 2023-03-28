@@ -1,2 +1,0 @@
-i have cloned my devops account
-i ran git status and the feedback was file not added
