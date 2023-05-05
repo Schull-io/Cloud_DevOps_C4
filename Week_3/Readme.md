@@ -4,13 +4,13 @@ Step 1: Work with the commands,
 Step 2: Do a screenshooot.
 Step 3: Atached proof in your local machine and push to the remote repo.
 
-
-
 # List the files of a directory using the ls command
+
 List the content of your home directory
 List the content of <name_of_directory> by using its absolute path and then its relative path using the ```console
 ls
-``` command
+
+````command
 List the content of the directory <name_of_directory> with the ```console
 ls
 ``` command and the option -R
@@ -28,7 +28,8 @@ Go to the Audio directory and check if its correct using the command pwd
 List the content with ls
 go to the previous directory using ```console
 ../
-```
+````
+
 list the content of the image directory using -R option
 Go back to your home directory.
 
@@ -37,7 +38,7 @@ Go back to your home directory.
 1. List all files in the current directory, including hidden files: ls -a
 2. List all files in the current directory, including hidden files, and show their file sizes: ls -lh
 3. List all files in the current directory sorted by modification time: ls -lt
-4. List only directories in the current directory: ls -d */
+4. List only directories in the current directory: ls -d \*/
 5. List all files in the current directory, including hidden files, and display them in a long format with the owner's name: ls -l --show-control-chars --group-directories-first --author
 6. List all files in the current directory and its subdirectories: ls -R
 7. List all files in the current directory and its subdirectories, including hidden files: ls -R -a
@@ -58,8 +59,8 @@ Go back to your home directory.
 9. Copy a file and only copy the part of the file between two specified offsets: cp --sparse=always --input-range=offset1:offset2 /path/to/source/file.txt /path/to/destination/
 10. Copy a file and show progress while copying: cp -v /path/to/source/file.txt /path/to/destination/
 
-
 # Mv cmd
+
 1. Rename a file: mv old_name.txt new_name.txt
 2. Move a file to a different directory: mv file.txt /path/to/destination/
 3. Move multiple files to a different directory: mv file1.txt file2.txt file3.txt /path/to/destination/
@@ -72,6 +73,7 @@ Go back to your home directory.
 10. Rename a file and change its file permissions at the same time: mv -v --preserve=mode /path/to/source/file.txt /path/to/destination/new_name.txt
 
 # I/o redirection
+
 1. Redirect the output of a command to a file: ls -l > file.txt
 2. Append the output of a command to a file: ls -l >> file.txt
 3. Redirect the output of a command to another command: ls -l | wc -l
@@ -84,6 +86,7 @@ Go back to your home directory.
 10. Read a command's input from the output of another command: sort <(ls -l)
 
 # Using pipes
+
 1. Use grep to filter the output of ls: ls -l | grep "\.txt"
 2. Use awk to extract fields from the output of ls: ls -l | awk '{print $9}'
 3. Use sed to modify the output of ls: ls -l | sed 's/^/ /'
@@ -103,14 +106,15 @@ Go back to your home directory.
 9. Go to a specific line number by pressing Esc, then typing :line_number and pressing Enter
 10. Split the window into multiple panes by pressing Ctrl + w followed by v or h to split vertically or horizontally, respectively. Navigate between panes using Ctrl + w followed by h, j, k, or l.
 
-
 # Using ssh
+
 Connect to a remote server using SSH: ssh user@server
 Connect to a remote server using a private key file: ssh -i /path/to/private_key user@server
 Connect to a remote server and run a command without entering the shell: ssh user@server "command"
 Connect to a remote server using a different user name: ssh -l username user@server
 
 # Users and groups
+
 1. Add a new user: useradd username
 2. Set a password for a user: passwd username
 3. Delete a user: userdel username
