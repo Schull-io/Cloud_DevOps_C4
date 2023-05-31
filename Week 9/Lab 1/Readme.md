@@ -41,7 +41,9 @@ https://docs.aws.amazon.com/autoscaling/ec2/userguide/autoscaling-load-balancer.
 
 ## 3. Create template from the instance
 
+![LI1](https://github.com/DanielChris12/Cloud_DevOps_C4/assets/105374941/dc7145c7-0c9f-4b95-8df9-27e00d0df6fb)
 
+![LI2](https://github.com/DanielChris12/Cloud_DevOps_C4/assets/105374941/2ce49546-9881-4208-b154-59a0bc07870e)
 
 
 
