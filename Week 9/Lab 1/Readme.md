@@ -45,6 +45,20 @@ https://docs.aws.amazon.com/autoscaling/ec2/userguide/autoscaling-load-balancer.
 
 ![LI2](https://github.com/DanielChris12/Cloud_DevOps_C4/assets/105374941/2ce49546-9881-4208-b154-59a0bc07870e)
 
+## 4. Use this template to configured your elastic load balancer and auto scaling group.  5. The minimum instance you set is 2 and maximum is 5.
+
+![ASG](https://github.com/DanielChris12/Cloud_DevOps_C4/assets/105374941/760ccaea-a5c8-4372-a414-0615ba4e1cb4)
+
+![ASG2](https://github.com/DanielChris12/Cloud_DevOps_C4/assets/105374941/d95a87ac-fda4-41ae-912e-5565ae9d41ad)
+
+![ASG3](https://github.com/DanielChris12/Cloud_DevOps_C4/assets/105374941/7130a058-234c-4d52-911c-275e0b925167)
+
+![ASG4](https://github.com/DanielChris12/Cloud_DevOps_C4/assets/105374941/40828018-847f-468e-a2a7-f2008fa3000a)
+
+![ASG5](https://github.com/DanielChris12/Cloud_DevOps_C4/assets/105374941/a6801e56-e518-42f9-a39d-e81148ce669a)
+
+
+
 
 
 
