@@ -12,6 +12,7 @@ Use ansible ansible1 -m service -a "name=httpd enabled=yes state=started" to sta
 Run the command ansible all -m command -a "systemctl status httpd" again to verify the modification has been applied.
 
 ## Running Your First Playbook
+
 Type vim exercise.yaml to open a new file that will contain the desired playbook code. Make sure the file is created in your home directory, where an ansible.cfg and inventory file already exist.
 Type three dashes to start the playbook code: 
 --- Start the play definition on a new line. 
@@ -24,7 +25,9 @@ You need to add a line that defines the hosts that the play should manage. Notic
 In the next part of the play, you define the tasks that will be executed by this play. Under the word hosts, indented at the same level, type tasks:. There is nothing after the colon because the value of the key tasks is a list of tasks, which is provided on the next couple of lines:
 ---
 - name: install and start the vsftpd service
-hosts: all tasks:
+
+## hosts: all tasks:
+
 At this point, you can start defining the tasks. The first task ensures that the yum module is used to define the vsftpd package. Notice the indentation, which identifies that the task is a child element of the play:
 ---
 - name: install and start the vsftpd service hosts: all
