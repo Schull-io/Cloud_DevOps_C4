@@ -95,9 +95,7 @@ Open the Amazon VPC console on the console
 
 Choose VPC Dashboard, and then choose Subnets.
 
-Note the subnet IDs of the subnets named tutorial-subnet-private1-us-west-2a and tutorial-subnet-private2-us-west-2b.
-
-You need the subnet IDs when you create your DB subnet group.
+Note the subnet IDs of the subnets,You need the subnet IDs when you create your DB subnet group.
 
 Open the Amazon RDS on the console
 
@@ -109,16 +107,27 @@ Choose Create DB subnet group.
 
 On the Create DB subnet group page, set these values in Subnet group details:
 
-Name: tutorial-db-subnet-group
-
-Description: Tutorial DB Subnet Group
-
-VPC: cst tutorial vpc
-
 In the Add subnets section, choose the Availability Zones and Subnets.
 
-For this tutorial, choose us-west-2a and us-west-2b for the Availability Zones. For Subnets, choose the private subnets you identified in the previous step.
 
 Choose Create.
 
 Your new DB subnet group appears in the DB subnet groups list on the RDS console. You can choose the DB subnet group to see details in the details pane at the bottom of the window. These details include all of the subnets associated with the group.
+
+
+## screenshot
+
+![vpc-db1](https://github.com/DanielChris12/Cloud_DevOps_C4/assets/105374941/859aa3c9-369e-41e8-8300-9011ec01bc65)
+
+![vpc db2](https://github.com/DanielChris12/Cloud_DevOps_C4/assets/105374941/36755edd-cdde-4ab6-a692-11ba2c51d4a6)
+
+![db-sg](https://github.com/DanielChris12/Cloud_DevOps_C4/assets/105374941/d44c20ef-e661-41f3-ace7-260c8ef646a4)
+
+![db-pri-sg-1](https://github.com/DanielChris12/Cloud_DevOps_C4/assets/105374941/a0b4be13-b2a0-4cc2-953f-5cb55042ba35)
+
+![db-01](https://github.com/DanielChris12/Cloud_DevOps_C4/assets/105374941/1807672d-4e94-466e-9ceb-c2a48a62d382)
+
+
+
+
+
