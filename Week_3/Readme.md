@@ -121,3 +121,54 @@ Connect to a remote server using a different user name: ssh -l username user@ser
 8. Change a user's secondary groups: usermod -G group1,group2,group3 username
 9. Change the name of a group: groupmod -n new_groupname groupname
 10. Change the group ID of a group: groupmod -g new_gid groupname
+
+
+
+
+
+
+
+
+
+
+## LAB Experience 
+# List the content of the directory <name_of_directory> with the ls command and the option -R
+
+![Linux1](https://user-images.githubusercontent.com/105374941/221877732-92c57af8-a447-4dcb-a947-73e2686ac809.png)
+
+
+# ls command and the option -l
+![linux2](https://user-images.githubusercontent.com/105374941/221878161-323c116b-72d7-40b3-b18e-c3a8b4cd07e5.png)
+
+
+
+# ls command and the option -a / -lh
+
+![linux4](https://user-images.githubusercontent.com/105374941/221879053-0cce857f-c67c-4801-a0aa-0a8b55e285bc.png)
+
+# ls command and the option -
+
+![linux5](https://user-images.githubusercontent.com/105374941/221887279-85bb6e71-8e8c-4c37-bae4-61e320e61a37.png)
+
+![linux5a](https://user-images.githubusercontent.com/105374941/221887308-9595e0dd-0d09-4c4e-9900-47171615065f.png)
+
+
+![Linux6](https://user-images.githubusercontent.com/105374941/221887342-81d3add1-0ecf-4dec-880f-70f26b3603c2.png)
+
+![linux7](https://user-images.githubusercontent.com/105374941/221887375-f60dd2d9-da45-41f4-89a2-0cbb49f5496f.png)
+
+![linux7a](https://user-images.githubusercontent.com/105374941/221887497-f47ec143-1a28-4c70-8d02-460d72e0d2a1.png)
+
+
+
+
+
+## CP CMD
+
+# Copy a file from one directory to another: cp /path/to/source/file.txt /path/to/destination/
+
+
+![cp1](https://user-images.githubusercontent.com/105374941/222155338-626b4d6b-a266-40e6-9c47-85d9b2f2cfc8.png)
+
+![cp2](https://user-images.githubusercontent.com/105374941/222155374-147ed630-3493-437d-8ebe-038eed8c3edd.png)
+
