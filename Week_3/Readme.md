@@ -11,7 +11,7 @@ List the content of your home directory
 List the content of <name_of_directory> by using its absolute path and then its relative path using the ```console
 ls
 ``` command
-List the content of the directory <name_of_directory> with the ```console
+List the content of the directory <name_of_directory> with the ```consolegi
 ls
 ``` command and the option -R
 

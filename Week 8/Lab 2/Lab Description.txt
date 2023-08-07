@@ -1,0 +1,8 @@
+Description
+
+3 Placement groups were created for this LAB
+-Cluster, Spread and Partion.
+After creating the placement groups, 2 instances were created for the spread and partioned groups
+and they were attached to the instances. However, I could not attach the cluster placement group that was created because 
+it didn't support the instance type that was used for this LAB (T2 micro free tier) because of it's burstable performance. 
+Although, if I had changed the instance type to for example c5a.2xlarge it would have worked.

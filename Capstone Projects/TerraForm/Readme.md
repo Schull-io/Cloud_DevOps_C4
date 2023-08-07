@@ -39,3 +39,80 @@ Access the web application from public internet browser using the domain name.
 
 ### Guide
 https://dev.to/chefgs/create-apache-web-server-in-aws-using-terraform-1fpj
+
+
+
+
+
+AKIAWU5R4P3LMXQNCD3C: access key
+rfDEJEuwgP9HqTcmOg6otos0d6JrF/YHARDsvuka:secrete accsess key
+
+
+
+
+//Create Dynamodb
+resource "aws_dynamodb_table" "statelock" {
+  name = "state-lock"
+  billing_mode = "PAY_PER_REQUEST"
+  hash_key = "LockID"
+  
+
+   attribute {
+    name = "LockID"
+    type = "S"
+  }
+}
+Danniecrypt4
+London
+AKIA6QACS24SOJYTAAOG: access key
+GGphs5UZJUGfyimnDk/4psI01uXglQVvIOFjAt46:secrete accsess key
+
+Danniecrypt5
+
+AKIA6QACS24SL7NMU6BC: access key
+K+ZLYwvLTC/NsbS4jm2pIQN+D8skvBZBa1WT+r43:secrete accsess key
+
+
+
+
+
+
+
+
+
+
+
+
+# Consolidation of all groups
+#[hosts:children]
+#web-servers
+#offsite
+#onsite
+#backup-servers
+
+#[web-servers]
+#server1 ansible_host=192.168.0.1 ansible_port=1600
+#server2 ansible_host=192.168.0.2 ansible_port=1800
+
+#[offsite]
+#server3 ansible_host=10.160.40.1 ansible_port=22 ansible_user=root
+#server4 ansible_host=10.160.40.2 ansible_port=4300 ansible_user=root
+
+# You can make groups of groups
+#[offsite:children]
+#backup-servers
+
+#[onsite]
+#server5 ansible_host=10.150.70.1 ansible_ssh_pass=password
+
+#[backup-servers]
+#server6 ansible_host=10.160.40.3 ansible_port=77
+
+[Danniehosts]
+192.168.0.132 ansible_ssh_user=root ansible_ssh_passwd=Dannie456#@$%
+
+
+
+
+
+
